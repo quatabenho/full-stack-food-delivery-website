@@ -4,10 +4,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Quicksand, sans-serif;
 }
 
 body{
-  font-family: Quicksand, sans-serif;
   min-height: 100vh;
 }
 
@@ -19,4 +19,13 @@ a{
 .app{
   width: 80%;
   margin: auto;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
